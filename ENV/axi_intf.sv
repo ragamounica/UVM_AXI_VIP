@@ -1,0 +1,44 @@
+interface axi_intf(input logic aclk, arst);
+	//write channels
+	logic [3:0] awid;
+	logic [31:0] awaddr;
+	logic [3:0] awlen;
+	logic [2:0] awsize;
+	logic [1:0] awburst;
+	logic [1:0] awlock;
+	logic [3:0] awcache;
+	logic [2:0] awprot;
+	logic awqos;
+	logic awregion;
+	logic awvalid;
+	logic awready;
+	logic [3:0] wid;
+	logic [63:0] wdata;
+	logic [3:0] wstrb;
+	logic wlast;
+	logic wvalid;
+	logic wready;
+	logic [3:0] bid;
+	logic [1:0] bresp;
+	logic bvalid;
+	logic bready;
+	//read channels
+	logic [3:0] arid;
+	logic [31:0] araddr;
+	logic [3:0] arlen;
+	logic [2:0] arsize;
+	logic [1:0] arburst;
+	logic [1:0] arlock;
+	logic [3:0] arcache;
+	logic [2:0] arprot;
+	logic arqos;
+	logic arregion;
+	logic arvalid;
+	logic arready;
+	logic [3:0] rid;
+	logic [63:0] rdata;
+	logic rlast;
+	logic rvalid;
+	logic rready;
+	logic [1:0] rresp;
+endinterface
