@@ -1,0 +1,24 @@
+axi_bfm::run
+# axi_gen::run
+# Selected testname: test_5_wr_5_rd
+# axi_mon::run
+# axi_cov::run
+#########################
+### axi_tx::print ###
+#########################
+# id=9
+# addr=6c8ad0f7
+# dataQ='{1299076280, 4108597689, 3791643772, 80424228, 2970767803, 3034221582, 3310716630, 3916146664, 3214574324}
+# len=8
+# wr_rd=WRITE
+# size=  BURST_SIZE_4_BYTE
+# burst=INCR
+# lock=NORMAL
+# prot=0
+# cache=0
+# resp=OKAY
+# Write_addr_phase
+# Write _data_phase
+# Write _resp_phase
+# ** Note: $finish    : top.sv(91)
+#    Time: 500 ns  Iteration: 0  Instance: /top
