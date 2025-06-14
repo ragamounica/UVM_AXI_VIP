@@ -26,17 +26,6 @@ The verification environment covers AXI protocol compliance, transaction-level s
 
 ---
 
-**Project Structure**
-
-AXI_VIP/
-│
-├── doc/       # Specifications, block diagrams, verification plan
-├── rtl/       # DUT (Design Under Test) files
-├── tb/        # Testbench top-level and interface files
-├── env/       # Complete UVM Environment (agent, driver, monitor, scoreboard, sequences)
-├── sim/       # Simulation scripts, configurations
-├── logs/      # Simulation logs and coverage reports
-└── README.md  # Project documentation
 
 ---
 
@@ -51,13 +40,5 @@ AXI_VIP/
 
 ---
 
-**Contact**
-
-If you're a hiring manager, recruiter, or engineer and would like to discuss this project:
-
-- **Email:** [YourEmail@example.com]
-- **LinkedIn:** [LinkedIn Profile URL]
 
 ---
-
-*This repository is part of my personal verification portfolio demonstrating real-world design verification skills on industry-standard protocols.*
